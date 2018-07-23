@@ -42,7 +42,7 @@ import kotlinx.android.synthetic.main.activity_main.*
  * This Activity requests permissions to access the camera ([android.Manifest.permission.CAMERA])
  * when the 'Show Camera' button is clicked to display the camera preview.
  * Contacts permissions (([android.Manifest.permission.READ_CONTACTS] and ([ ][android.Manifest.permission.WRITE_CONTACTS])) are requested when the 'Show and Add Contacts'
- * button is
+ * button iss
  * clicked to display the first contact in the contacts database and to add a dummy contact
  * directly to it. Permissions are verified and requested through compat helpers in the support v4
  * library, in this Activity using [ActivityCompat].
